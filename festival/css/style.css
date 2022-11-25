@@ -1,0 +1,357 @@
+@charset "UTF-8";
+
+* {
+    text-decoration: none;
+    list-style-type: none;
+    color: #222328;
+    font-size: 12pt;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background: ffffff;
+}
+
+#index_box {
+    width: 1000px;
+    height: 650px;
+}
+
+/****왼쪽박스시작****/
+#left_box {
+    float: left;
+    width: 240px;
+    height: 100%;
+    background-color: mistyrose;
+}
+
+.logo_box > a > img {
+    width: 200px;
+    height: 40px;
+    margin: 20px;
+}
+
+/*---내비시작---*/
+.navi_box {
+    width: 200px;
+    text-align: center;
+    margin: 20px;
+    background: white;
+    border: 1px solid silver;
+    border-bottom: none;
+}
+
+.navi_box > ul > li > a {
+    display: block;
+    height: 40px;
+    font-size: 1.2rem;
+    letter-spacing: 5px;
+    line-height: 30pt;
+    border-bottom: 1px solid silver;
+}
+
+.submenu {
+    display: none;
+    width: 200px;
+    height: auto;
+    padding: 10px 0;
+    border-bottom: 1px solid silver;
+}
+
+.submenu > li > a {
+    display: block;
+    height: 30px;
+    line-height: 25pt;
+    letter-spacing: 2px;
+    color: dimgrey;
+}
+
+.navi_box > ul > li:hover > a {
+    background-color: seagreen;
+    color: white;
+}
+
+.submenu > li:hover > a {
+    color: hotpink;
+    text-decoration: underline;
+}
+
+/*---내비끝---*/
+/****왼쪽박스끝****/
+
+
+
+/****우측박스시작****/
+#right_box {
+    float: right;
+    width: 760px;
+    height: 100%;
+}
+
+/*---슬라이드시작---*/
+.slide_box {
+    width: 100%;
+    height: 350px;
+}
+
+.slide_box > ul {
+    position: relative;
+}
+
+.slide_box > ul > li {
+    position: absolute;
+}
+
+/*---슬라이드끝---*/
+
+/*---컨텐츠시작---*/
+.contents_box {
+    width: 800px;
+    height: 200px;
+}
+
+
+.notice {
+    float: left;
+    width: 300px;
+    height: 180px;
+    padding: 10px;
+    
+}
+
+.notice_title > a {
+    display: block;
+    width: 70px;
+    height: 18px;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+    
+}
+
+.notice_list {
+    width: 300px;
+    height: 130px;
+    
+    
+    
+}
+
+.notice_list > ul > li > a {
+    float: left;
+    font-size: 0.8rem;
+    line-height: 33px;
+    
+}
+
+.notice_list > ul > li > span {
+    float: right;
+    font-size: 0.8rem;
+    line-height: 33px;
+    
+}
+
+.notice_list > ul > li:hover > a {
+    color: #222328;
+    font-weight: bold;
+}
+
+.gallery {
+    float: left;
+    width: 260px;
+    height: 180px;
+    padding: 10px;
+    
+}
+
+.gallery_title > a {
+    display: block;
+    width: 70px;
+    height: 18px;
+    text-align: center;
+    padding: 5px;
+    color: black;
+    
+}
+
+.gallery_list {
+    width: 260px;
+    height: 74px;
+    padding: 38px 10px;
+    
+}
+
+.gallery_list > ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery_list > ul > li {
+    overflow: hidden;
+    height: 72px;
+}
+
+.gallery_list > ul > li > a > img {
+    width: 72px;
+}
+
+.gallery_list > ul > li:hover > a > img {
+    opacity: 0.7;
+    transform: scale(1.1)
+}
+
+.direct {
+    float: right;
+    width: 200px;
+    height: 200px;
+    background: black;
+}
+
+.direct > a > img {
+    width: 200px;
+    height: 200px;
+}
+
+.direct > a:hover > img {
+    opacity: 0.7;
+}
+
+/*---컨텐츠끝---*/
+
+/*---푸터시작---*/
+.footer_box {
+    width: 800px;
+    height: 100px;
+    
+}
+
+.copyright {
+    float: left;
+    width: 600px;
+    height: 25px;
+    padding: 35px 0;
+    font-size: 0.9rem;
+    color: black;
+}
+
+.footer_right {
+    float: right;
+    width: 200px;
+    height: 100px;
+    font-size: 0;
+    margin: 0;
+}
+
+.sns {
+    width: 130px;
+    height: 35px;
+    padding: 15px 40px 5px;
+}
+
+.sns > ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sns > ul > li > a > img {
+    width: 30px;
+}
+
+.sns > ul > li:hover {
+    opacity: 0.8;
+}
+
+.family {
+    padding-left: 40px;
+}
+
+.familysite {
+    width: 130px;
+    padding: 3px 5px;
+    background: white;
+    border: 1px solid black;
+}
+
+.familysite > div{
+    height: 20px;
+    cursor: pointer;
+}
+.familysite > div > a {
+    float: left;
+    font-size: 0.9rem;
+    line-height: 20px;
+}
+.familysite > div > span {
+    float: right;
+    font-size: 0.9rem;
+    line-height: 20px;
+}
+.familysite > ul{
+    display: none;
+    border-top: 1px solid silver;
+    padding: 5px 0;
+}
+.familysite > ul > li > a {
+    font-size: 0.9rem;
+    width: 130px;
+}
+.familysite > ul > li:hover{
+    background: darkseagreen;
+    cursor: pointer;
+}
+/*---푸터끝---*/
+/****우측박스끝****/
+
+/****모달팝업시작****/
+#modal_popup {
+    display: none;
+    position: fixed;
+    z-index: 3;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5)
+}
+
+.popup_box {
+    position: absolute;
+    width: 500px;
+    height: 250px;
+    background: white;
+    border: 5px solid hotpink;
+    top: 100px;
+    left: 200px;
+}
+
+.popup_box div:first-child {
+    width: 500px;
+    height: 26px;
+    color: white;
+    font-size: 1.1rem;
+    background: hotpink;
+}
+
+.popup_top {
+    padding: 10px;
+    line-height: 23px;
+    font-size: 0.9rem;
+}
+
+.팝업닫기 {
+    float: right;
+    padding: 5px 20px;
+    margin-right: 10px;
+    border: none;
+    color: white;
+    background: dimgrey;
+
+}
+
+.팝업열기 {
+    cursor: pointer;
+}
+
+/****모달팝업끝****/

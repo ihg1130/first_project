@@ -1,0 +1,32 @@
+*{margin: 0; padding: 0; font-size: 24px; color:white;}
+a {color:#333; text-decoration: none;}
+li {list-style : none;}
+
+.clearfix::before, .clearfix::after {display: block; content:''; clear:both;}
+
+#wrap{width: 1200px; margin: 0px auto;}
+
+#header {width: 100%; background: #e6ceff;}
+#header .logo{float: left; width: 250px; height: 100px; line-height: 100px; background:#b39ddb; text-align: center;}
+#header .nav{float: right; width: 950px; height: 100px; background:pink;}
+#header .nav ul{float: right; width: 650px; height: 50px; margin-top: 25px; background:#d1c4e9;}
+#header .nav li{position: relative; float:left; width: 25%; text-align: center;}
+#header .nav li a{display: block; padding: 10px; font-size: 15px;}
+#header .nav li a:hover{background: rgba(0,0,0,0.4);}
+
+
+#header .nav li ul.submenu {display:none; position: absolute; left: 0; top:50px;}
+#header .nav li ul.submenu li {width: 100%;}
+
+#banner{width: 1200px; height: 300px; line-height:300px; background:#e6ceff; text-align: center; }
+
+#contents{width: 1200px; text-align: center;}
+#contents > div{float:left; width:33.33%; height:200px; line-height: 200px;}
+#contents > div.cont1{background-color: rgb(175, 36, 113);}
+#contents > div.cont2{background: rgb(83, 49, 68);}
+#contents > div.cont3{background-color: rgb(44, 42, 43);}
+
+#footer {width:100%; line-height: 100px; text-align: center;}
+#footer .foot1{float: left; width: 200px; height:100px; background-color: rgb(34, 161, 151);}
+#footer .foot2{float: left; width: 800px; height:100px; background-color: rgb(89, 129, 131);}
+#footer .foot3{float: left; width: 200px; height:100px; background-color: rgb(116, 167, 36);}

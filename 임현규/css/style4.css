@@ -1,0 +1,25 @@
+*{
+    margin:0; padding:0; color:#fff; text-align : center;
+}
+.clearfix::before, .clearfix::after{display:block; content:''; clear: both;}
+
+#main{
+    width: 1200px; height: 400px; background-color: rgb(121, 224, 161);
+    margin:0 auto;
+}
+#header{width: 100%;}
+#header .logo{float: left; width: 250px; height: 100px; background-color: rgb(190, 37, 165);}
+#header .nav{float: left; width: 950px; height: 100px; background-color: rgb(131, 89, 124);}
+
+#banner{width: 100%; height: 200px; background-color: rgba(78, 35, 35, 0.712);}
+
+#contents{width: 1200px;}
+#contents > div{float:left; width:33.33%; height:200px;}
+#contents > div.cont1{background-color: rgb(175, 36, 113);}
+#contents > div.cont2{background: rgb(83, 49, 68);}
+#contents > div.cont3{background-color: rgb(44, 42, 43);}
+
+#footer {width:100%;}
+#footer .foot1{float: left; width: 200px; height:100px; background-color: rgb(34, 161, 151);}
+#footer .foot2{float: left; width: 800px; height:100px; background-color: rgb(89, 129, 131);}
+#footer .foot3{float: left; width: 200px; height:100px; background-color: rgb(116, 167, 36);}
